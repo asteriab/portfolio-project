@@ -1,0 +1,75 @@
+:root {
+  --primary-color: #931f74;
+  --secondary-color: #dbfafd;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.49);
+}
+
+* {
+  box-sizing: border-box;
+}
+main {
+  margin: 100px auto 50px;
+}
+
+h3 {
+  opacity: 0.6;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a,
+.primary-link {
+  margin: 20px;
+  border-radius: 6px;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact-link,
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-paragraphs {
+  justify-content: space-evenly;
+}
+
+.about-paragraphs p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
